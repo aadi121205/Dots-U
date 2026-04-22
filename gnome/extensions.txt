@@ -1,0 +1,16 @@
+blur-my-shell@aunetx
+openbar@neuromorph
+dash-to-dock@micxgx.gmail.com
+caffeine@patapon.info
+mediacontrols@cliffniff.github.com
+search-light@icedman.github.com
+monitor@astraext.github.io
+tilingshell@ferrarodomenico.com
+gsconnect@andyholmes.github.io
+tailscale-exit-node@local
+
+# Ubuntu built-ins (pre-installed, no need to reinstall):
+# ding@rastersoft.com
+# tiling-assistant@ubuntu.com
+# ubuntu-appindicators@ubuntu.com
+# ubuntu-dock@ubuntu.com

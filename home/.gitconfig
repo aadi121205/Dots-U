@@ -1,0 +1,9 @@
+[user]
+	email = aaditya12120205@gmail.com
+	name = Aaditya Bhatia
+[credential "https://github.com"]
+	helper = 
+	helper = !/snap/gh/751/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/snap/gh/751/gh auth git-credential

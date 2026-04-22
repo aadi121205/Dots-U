@@ -1,0 +1,22 @@
+[/]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+
+[custom-keybindings/custom0]
+binding='<Control><Alt>b'
+command='kitty btop'
+name='btop'
+
+[custom-keybindings/custom1]
+binding='<Control><Alt>v'
+command='kitty nvim'
+name='vscode'
+
+[custom-keybindings/custom2]
+binding='<Control><Alt>c'
+command='kitty claude'
+name='claude'
+
+[custom-keybindings/custom3]
+binding='<Super>c'
+command='/home/aadi/.local/bin/center-window'
+name='Center Window'
