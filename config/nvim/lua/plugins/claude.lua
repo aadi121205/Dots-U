@@ -7,6 +7,11 @@ return {
       terminal = {
         split_width_percentage = 0.18,
       },
+      diff_opts = {
+        layout = "vertical",        -- side-by-side: original | proposed
+        open_in_new_tab = false,    -- open diff in current tab, next to existing code
+        keep_terminal_focus = true, -- keep cursor in CC terminal after diff opens
+      },
     },
     keys = {
       { "<leader>a", nil, desc = "AI/Claude Code" },

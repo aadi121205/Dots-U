@@ -1,4 +1,5 @@
 [/]
+dynamic-workspaces=true
 edge-tiling=false
 experimental-features=@as []
 workspaces-only-on-primary=false

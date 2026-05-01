@@ -1,3 +1,6 @@
+[a11y/magnifier]
+cross-hairs-length=58
+
 [app-folders]
 folder-children=['Utilities', 'YaST', 'Pardus', '86b4ee1a-4a78-4d17-a6ae-c4c2560dfa24']
 
@@ -33,18 +36,29 @@ picture-uri-dark='file:///home/aadi/.local/share/backgrounds/2026-04-03-03-41-47
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
+[break-reminders/eyesight]
+play-sound=true
+
+[break-reminders/movement]
+duration-seconds=uint32 300
+interval-seconds=uint32 1800
+play-sound=true
+
 [input-sources]
 sources=[('xkb', 'us')]
 xkb-options=@as []
 
 [interface]
+accent-color='blue'
 color-scheme='prefer-dark'
+enable-animations=true
 enable-hot-corners=true
 gtk-theme='Yaru-blue-dark'
-icon-theme='Yaru-blue'
+icon-theme='Yaru-blue-dark'
+show-battery-percentage=false
 
 [notifications]
-application-children=['org-gnome-nautilus', 'com-raggesilver-blackbox', 'apport-gtk', 'org-gnome-shell-extensions', 'com-obsproject-studio', 'org-gnome-shell-extensions-gsconnect', 'gnome-power-panel', 'cider', 'org-gnome-software', 'gnome-printers-panel', 'thunderbird-thunderbird', 'com-mattjakeman-extensionmanager', 'google-chrome', 'kitty', 'org-gnome-diskutility', 'kazam', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'gparted', 'org-gnome-settings', 'chrome-fmpnliohjhemenmnlpbfagaolkdacoja-default', 'nvim-nvim']
+application-children=['org-gnome-nautilus', 'com-raggesilver-blackbox', 'apport-gtk', 'org-gnome-shell-extensions', 'com-obsproject-studio', 'org-gnome-shell-extensions-gsconnect', 'gnome-power-panel', 'cider', 'org-gnome-software', 'gnome-printers-panel', 'thunderbird-thunderbird', 'com-mattjakeman-extensionmanager', 'google-chrome', 'kitty', 'org-gnome-diskutility', 'kazam', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'gparted', 'org-gnome-settings', 'chrome-fmpnliohjhemenmnlpbfagaolkdacoja-default', 'nvim-nvim', 'org-gnome-ptyxis']
 show-banners=false
 
 [notifications/application/apport-gtk]
@@ -95,6 +109,9 @@ application-id='org.gnome.DiskUtility.desktop'
 [notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
 
+[notifications/application/org-gnome-ptyxis]
+application-id='org.gnome.Ptyxis.desktop'
+
 [notifications/application/org-gnome-settings]
 application-id='org.gnome.Settings.desktop'
 
@@ -111,10 +128,18 @@ application-id='org.gnome.Software.desktop'
 application-id='thunderbird_thunderbird.desktop'
 
 [peripherals/touchpad]
+send-events='enabled'
 two-finger-scrolling-enabled=true
+
+[privacy]
+report-technical-problems=false
+
+[screen-time-limits]
+daily-limit-seconds=uint32 28800
 
 [screensaver]
 color-shading-type='solid'
+lock-delay=uint32 300
 picture-options='zoom'
 picture-uri='file:///home/aadi/.local/share/backgrounds/2026-04-03-03-41-47-a_bridge_with_lights_on_it.jpg'
 primary-color='#000000000000'
@@ -122,6 +147,9 @@ secondary-color='#000000000000'
 
 [search-providers]
 sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[session]
+idle-delay=uint32 900
 
 [wm/keybindings]
 maximize=@as []

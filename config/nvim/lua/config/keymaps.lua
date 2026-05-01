@@ -14,6 +14,7 @@ local function toggle_bottom_terminal()
         end
         vim.cmd("botright 20split")
         vim.api.nvim_win_set_buf(0, buf)
+        vim.wo.winfixheight = true
         vim.cmd("startinsert")
         return
       end

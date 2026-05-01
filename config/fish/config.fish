@@ -3,6 +3,8 @@ function fish_greeting
     echo (set_color blue)"Greetings, Professor Falken."(set_color normal)
 end
 
+alias neofetch=fastfetch
+
 if status is-interactive
     # Aliases
     alias ls='ls --color=auto'
@@ -31,10 +33,10 @@ alias grep='grep --color=auto'
     # Conda lazy loader — only initializes on first use
     function conda
         functions --erase conda
-        if test -x /opt/miniconda3/bin/conda
-            /opt/miniconda3/bin/conda shell.fish hook | source
+        if test -x /opt/anaconda3/bin/conda
+            /opt/anaconda3/bin/conda shell.fish hook | source
         else
-            fish_add_path /opt/miniconda3/bin
+            fish_add_path /opt/anaconda3/bin
         end
         conda $argv
     end

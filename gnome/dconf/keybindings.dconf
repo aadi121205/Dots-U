@@ -1,5 +1,6 @@
 [/]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/']
+help=@as []
 
 [custom-keybindings/custom0]
 binding='<Control><Alt>b'
@@ -9,7 +10,7 @@ name='btop'
 [custom-keybindings/custom1]
 binding='<Control><Alt>v'
 command='kitty nvim'
-name='vscode'
+name='vim'
 
 [custom-keybindings/custom2]
 binding='<Control><Alt>c'
@@ -20,3 +21,33 @@ name='claude'
 binding='<Super>c'
 command='/home/aadi/.local/bin/center-window'
 name='Center Window'
+
+[custom-keybindings/custom4]
+binding='<Super>Launch2'
+command='kitty btop'
+name='btop'
+
+[custom-keybindings/custom5]
+binding='<Super>t'
+command='kitty'
+name='kitty'
+
+[custom-keybindings/custom6]
+binding='<Control><Alt>h'
+command='kitty htop'
+name='htop'
+
+[custom-keybindings/custom7]
+binding='<Control>Launch2'
+command='reboot'
+name='reboot'
+
+[custom-keybindings/custom8]
+binding='<Shift>Launch2'
+command='caffetog'
+name='caffine'
+
+[custom-keybindings/custom9]
+binding='<Control><Alt>Launch2'
+command='reboot'
+name='reboot'
