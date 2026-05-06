@@ -2,7 +2,16 @@
 cross-hairs-length=58
 
 [app-folders]
-folder-children=['Utilities', 'YaST', 'Pardus', '86b4ee1a-4a78-4d17-a6ae-c4c2560dfa24']
+folder-children=['Utilities', 'YaST', 'Pardus', '86b4ee1a-4a78-4d17-a6ae-c4c2560dfa24', '667c2bcf-474e-47c2-adc0-bdfff04ba423', '1025fc59-c3d1-4446-9731-f515ef080ec8']
+
+[app-folders/folders/1025fc59-c3d1-4446-9731-f515ef080ec8]
+apps=['minecraft-launcher.desktop', 'net.lutris.Lutris.desktop', 'winetricks.desktop', 'Fallout New Vegas.desktop', 'Hearts of Iron IV.desktop', 'Kerbal Space Program.desktop', 'net.lutris.epic-games-store-1.desktop']
+name='Games'
+
+[app-folders/folders/667c2bcf-474e-47c2-adc0-bdfff04ba423]
+apps=['org.chocolate_doom.Doom.desktop', 'screensavers-org.chocolate_doom.Doom_Screensaver.desktop', 'org.chocolate_doom.Heretic.desktop', 'org.chocolate_doom.Hexen.desktop', 'org.chocolate_doom.Setup.desktop', 'org.chocolate_doom.Strife.desktop', 'io.github.freedoom.Phase1.desktop', 'io.github.freedoom.Phase2.desktop']
+name='Games Linux'
+translate=false
 
 [app-folders/folders/86b4ee1a-4a78-4d17-a6ae-c4c2560dfa24]
 apps=['libreoffice-calc.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-writer.desktop']
@@ -31,8 +40,8 @@ exec-arg=''
 [background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/aadi/.local/share/backgrounds/2026-04-03-03-41-47-a_bridge_with_lights_on_it.jpg'
-picture-uri-dark='file:///home/aadi/.local/share/backgrounds/2026-04-03-03-41-47-a_bridge_with_lights_on_it.jpg'
+picture-uri='file:///home/aadi/.local/share/backgrounds/2026-05-03-19-22-11-a_street_with_signs_and_lights_01.png'
+picture-uri-dark='file:///home/aadi/.local/share/backgrounds/2026-05-03-19-22-11-a_street_with_signs_and_lights_01.png'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -58,7 +67,7 @@ icon-theme='Yaru-blue-dark'
 show-battery-percentage=false
 
 [notifications]
-application-children=['org-gnome-nautilus', 'com-raggesilver-blackbox', 'apport-gtk', 'org-gnome-shell-extensions', 'com-obsproject-studio', 'org-gnome-shell-extensions-gsconnect', 'gnome-power-panel', 'cider', 'org-gnome-software', 'gnome-printers-panel', 'thunderbird-thunderbird', 'com-mattjakeman-extensionmanager', 'google-chrome', 'kitty', 'org-gnome-diskutility', 'kazam', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'gparted', 'org-gnome-settings', 'chrome-fmpnliohjhemenmnlpbfagaolkdacoja-default', 'nvim-nvim', 'org-gnome-ptyxis']
+application-children=['org-gnome-nautilus', 'com-raggesilver-blackbox', 'apport-gtk', 'org-gnome-shell-extensions', 'com-obsproject-studio', 'org-gnome-shell-extensions-gsconnect', 'gnome-power-panel', 'cider', 'org-gnome-software', 'gnome-printers-panel', 'thunderbird-thunderbird', 'com-mattjakeman-extensionmanager', 'google-chrome', 'kitty', 'org-gnome-diskutility', 'kazam', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'gparted', 'org-gnome-settings', 'chrome-fmpnliohjhemenmnlpbfagaolkdacoja-default', 'nvim-nvim', 'org-gnome-ptyxis', 'gimp-gimp', 'org-gnome-calculator', 'org-gnome-dejadup', 'freecad-freecad', 'org-gnome-clocks', 'us-zoom-zoom']
 show-banners=false
 
 [notifications/application/apport-gtk]
@@ -82,6 +91,12 @@ application-id='com.obsproject.Studio.desktop'
 [notifications/application/com-raggesilver-blackbox]
 application-id='com.raggesilver.BlackBox.desktop'
 
+[notifications/application/freecad-freecad]
+application-id='freecad_freecad.desktop'
+
+[notifications/application/gimp-gimp]
+application-id='gimp_gimp.desktop'
+
 [notifications/application/gnome-power-panel]
 application-id='gnome-power-panel.desktop'
 
@@ -102,6 +117,15 @@ application-id='kitty.desktop'
 
 [notifications/application/nvim-nvim]
 application-id='nvim_nvim.desktop'
+
+[notifications/application/org-gnome-calculator]
+application-id='org.gnome.Calculator.desktop'
+
+[notifications/application/org-gnome-clocks]
+application-id='org.gnome.clocks.desktop'
+
+[notifications/application/org-gnome-dejadup]
+application-id='org.gnome.DejaDup.desktop'
 
 [notifications/application/org-gnome-diskutility]
 application-id='org.gnome.DiskUtility.desktop'
@@ -127,6 +151,9 @@ application-id='org.gnome.Software.desktop'
 [notifications/application/thunderbird-thunderbird]
 application-id='thunderbird_thunderbird.desktop'
 
+[notifications/application/us-zoom-zoom]
+application-id='us.zoom.Zoom.desktop'
+
 [peripherals/touchpad]
 send-events='enabled'
 two-finger-scrolling-enabled=true
@@ -141,7 +168,7 @@ daily-limit-seconds=uint32 28800
 color-shading-type='solid'
 lock-delay=uint32 300
 picture-options='zoom'
-picture-uri='file:///home/aadi/.local/share/backgrounds/2026-04-03-03-41-47-a_bridge_with_lights_on_it.jpg'
+picture-uri='file:///home/aadi/.local/share/backgrounds/2026-05-03-19-22-11-a_street_with_signs_and_lights_01.png'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
