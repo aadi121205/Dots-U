@@ -67,7 +67,7 @@ icon-theme='Yaru-blue-dark'
 show-battery-percentage=false
 
 [notifications]
-application-children=['org-gnome-nautilus', 'com-raggesilver-blackbox', 'apport-gtk', 'org-gnome-shell-extensions', 'com-obsproject-studio', 'org-gnome-shell-extensions-gsconnect', 'gnome-power-panel', 'cider', 'org-gnome-software', 'gnome-printers-panel', 'thunderbird-thunderbird', 'com-mattjakeman-extensionmanager', 'google-chrome', 'kitty', 'org-gnome-diskutility', 'kazam', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'gparted', 'org-gnome-settings', 'chrome-fmpnliohjhemenmnlpbfagaolkdacoja-default', 'nvim-nvim', 'org-gnome-ptyxis', 'gimp-gimp', 'org-gnome-calculator', 'org-gnome-dejadup', 'freecad-freecad', 'org-gnome-clocks', 'us-zoom-zoom']
+application-children=['org-gnome-nautilus', 'com-raggesilver-blackbox', 'apport-gtk', 'org-gnome-shell-extensions', 'com-obsproject-studio', 'org-gnome-shell-extensions-gsconnect', 'gnome-power-panel', 'cider', 'org-gnome-software', 'gnome-printers-panel', 'thunderbird-thunderbird', 'com-mattjakeman-extensionmanager', 'google-chrome', 'kitty', 'org-gnome-diskutility', 'kazam', 'chrome-hnpfjngllnobngcgfapefoaidbinmjnm-default', 'gparted', 'org-gnome-settings', 'chrome-fmpnliohjhemenmnlpbfagaolkdacoja-default', 'nvim-nvim', 'org-gnome-ptyxis', 'gimp-gimp', 'org-gnome-calculator', 'org-gnome-dejadup', 'freecad-freecad', 'org-gnome-clocks', 'us-zoom-zoom', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-baobab', 'org-gimp-gimp', 'com-google-androidstudio', 'org-gnome-evolution-alarm-notify']
 show-banners=false
 
 [notifications/application/apport-gtk]
@@ -81,6 +81,9 @@ application-id='chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop'
 
 [notifications/application/cider]
 application-id='cider.desktop'
+
+[notifications/application/com-google-androidstudio]
+application-id='com.google.AndroidStudio.desktop'
 
 [notifications/application/com-mattjakeman-extensionmanager]
 application-id='com.mattjakeman.ExtensionManager.desktop'
@@ -118,6 +121,12 @@ application-id='kitty.desktop'
 [notifications/application/nvim-nvim]
 application-id='nvim_nvim.desktop'
 
+[notifications/application/org-gimp-gimp]
+application-id='org.gimp.GIMP.desktop'
+
+[notifications/application/org-gnome-baobab]
+application-id='org.gnome.baobab.desktop'
+
 [notifications/application/org-gnome-calculator]
 application-id='org.gnome.Calculator.desktop'
 
@@ -129,6 +138,9 @@ application-id='org.gnome.DejaDup.desktop'
 
 [notifications/application/org-gnome-diskutility]
 application-id='org.gnome.DiskUtility.desktop'
+
+[notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
 
 [notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
@@ -148,11 +160,17 @@ application-id='org.gnome.Shell.Extensions.desktop'
 [notifications/application/org-gnome-software]
 application-id='org.gnome.Software.desktop'
 
+[notifications/application/snapd-desktop-integration-snapd-desktop-integration]
+application-id='snapd-desktop-integration_snapd-desktop-integration.desktop'
+
 [notifications/application/thunderbird-thunderbird]
 application-id='thunderbird_thunderbird.desktop'
 
 [notifications/application/us-zoom-zoom]
 application-id='us.zoom.Zoom.desktop'
+
+[peripherals/keyboard]
+numlock-state=true
 
 [peripherals/touchpad]
 send-events='enabled'
@@ -177,6 +195,9 @@ sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gn
 
 [session]
 idle-delay=uint32 900
+
+[sound]
+allow-volume-above-100-percent=true
 
 [wm/keybindings]
 maximize=@as []

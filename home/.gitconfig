@@ -9,3 +9,5 @@
 	helper = !/snap/gh/751/gh auth git-credential
 [init]
 	defaultBranch = main
+[safe]
+	directory = /home/aadi/Projects/build-arbian/build

@@ -44,3 +44,25 @@ end
 
 # Created by `pipx` on 2026-04-18 20:12:45
 set PATH $PATH /home/aadi/.local/bin
+
+# Flatpak
+fish_add_path /var/lib/flatpak/exports/bin
+fish_add_path ~/.local/share/flatpak/exports/bin
+
+# Generate short aliases for Flatpaks (e.g., 'gimp' for 'org.gimp.GIMP')
+if status is-interactive
+    for app in /var/lib/flatpak/exports/bin/* ~/.local/share/flatpak/exports/bin/*
+        if test -x "$app"
+            set -l bin (basename "$app")
+            if string match -q "*.*" "$bin"
+                set -l short (string lower (string split -r -m1 . "$bin")[2])
+                if test "$short" = gimp
+                    continue
+                end
+                if not type -q "$short"
+                    alias "$short"="$bin"
+                end
+            end
+        end
+    end
+end

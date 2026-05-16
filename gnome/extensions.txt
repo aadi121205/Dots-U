@@ -1,9 +1,9 @@
 blur-my-shell@aunetx
 caffeine@patapon.info
 monitor@astraext.github.io
+popup-font-fix@local
 gsconnect@andyholmes.github.io
 openbar@neuromorph
-mediacontrols@cliffniff.github.com
 tilingshell@ferrarodomenico.com
 just-perfection-desktop@just-perfection
 tailscale-exit-node@local
